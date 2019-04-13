@@ -19,19 +19,19 @@
    <testCaseLink>
       <guid>5ae83f2a-490f-4539-89fa-e470d19aad28</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/April13/Test2</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ed0e9abf-f2ab-4b48-a995-4349f4c866a7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/April13/Test3</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>91b141e5-af26-48e3-b563-bcfbc789cb3d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/April13/DataDrivenTest</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
