@@ -24,4 +24,4 @@ WebUI.click(findTestObject('Object Repository/Page_Alerts/a_Alert with Textbox')
 
 WebUI.setAlertText("Automation")
 WebUI.click(findTestObject('Object Repository/Page_Alerts/button_click the button to demonstrate the prompt box'))
-
+WebUI.delay(1)
