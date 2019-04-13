@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite3,,,2019-04-12 22:43:57,2019-04-12 22:43:58,0.780s,PASSED
+,,,,,,
+Test Cases/April13/TestListeners,,,2019-04-12 22:43:57,2019-04-12 22:43:57,0.134s,PASSED
+Start listener action : onTestCaseStart,,,2019-04-12 22:43:57,2019-04-12 22:43:57,0.001s,PASSED
+"println(""
+ I am inside test case 
+"")",,,2019-04-12 22:43:57,2019-04-12 22:43:57,0.002s,PASSED
+Start listener action : onTestCaseEnd,,,2019-04-12 22:43:57,2019-04-12 22:43:57,0.001s,PASSED

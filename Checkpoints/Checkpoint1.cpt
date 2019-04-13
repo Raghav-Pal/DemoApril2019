@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint1</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/TestData1</source-url>
+   </source-info>
+   <taken-date>2019-04-12T19:53:49.459</taken-date>
+   <column-names>
+      <column-name>Name</column-name>
+      <column-name>Place</column-name>
+      <column-name>ID</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "John",
+      "checked": true
+    },
+    {
+      "value": "NorthCarolina",
+      "checked": false
+    },
+    {
+      "value": "123",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Kevin",
+      "checked": true
+    },
+    {
+      "value": "Chennai",
+      "checked": false
+    },
+    {
+      "value": "456",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

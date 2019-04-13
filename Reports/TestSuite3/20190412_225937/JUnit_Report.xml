@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite3" time="1" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite3" tests="1" failures="0" errors="0" time="1" timestamp="2019-04-12 22:59:40" hostname="Administrator - EC2AMAZ-NDM7R0M" id="Test Suites/TestSuite3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Desktop\\Projects\\KatalonStudio\\April12_2019_Demo1\\Reports\\TestSuite3\\20190412_225937"/>
+         <property name="logFiles" value="D:\\Desktop\\Projects\\KatalonStudio\\April12_2019_Demo1\\Reports\\TestSuite3\\20190412_225937\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - EC2AMAZ-NDM7R0M"/>
+         <property name="hostAddress" value="172.20.128.1"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+      </properties>
+      <testcase name="Test Cases/April13/TestListeners" classname="Test Cases/April13/TestListeners" status="PASSED">
+         <system-out><![CDATA[2019-04-12 22:59:40 - [TEST_CASE][PASSED] - Test Cases/April13/TestListeners: Test Cases/April13/TestListeners
+
+2019-04-12 22:59:40 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStart: null
+
+2019-04-12 22:59:40 - [TEST_STEP][PASSED] - println("
+  I am inside onTestCaseStart funcion 
+"): null
+
+2019-04-12 22:59:40 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2019-04-12 22:59:40 - [TEST_STEP][PASSED] - println("
+ I am inside .... setupTestCase 
+"): null
+
+2019-04-12 22:59:40 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2019-04-12 22:59:41 - [TEST_STEP][PASSED] - println("
+ I am inside test case 
+"): null
+
+2019-04-12 22:59:41 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2019-04-12 22:59:41 - [TEST_STEP][PASSED] - println("
+ I am inside .... tearDownTestCase 
+"): null
+
+2019-04-12 22:59:41 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2019-04-12 22:59:41 - [TEST_STEP][ERROR] - Start listener action : onTestCaseEnd: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: Listener1.printl() is applicable for argument types: (java.lang.String) values: [
+  I am inside onTestCaseEnd funcion 
+]
+Possible solutions: println(), printf(java.lang.String, java.lang.Object), print(java.lang.Object), println(java.io.PrintWriter), print(java.io.PrintWriter), println(java.lang.Object)
+
+2019-04-12 22:59:41 - [TEST_STEP][ERROR] - printl("
+  I am inside onTestCaseEnd funcion 
+"): org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: Listener1.printl() is applicable for argument types: (java.lang.String) values: [
+  I am inside onTestCaseEnd funcion 
+]
+Possible solutions: println(), printf(java.lang.String, java.lang.Object), print(java.lang.Object), println(java.io.PrintWriter), print(java.io.PrintWriter), println(java.lang.Object)
+
+2019-04-12 22:59:41 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: Listener1.printl() is applicable for argument types: (java.lang.String) values: [
+  I am inside onTestCaseEnd funcion 
+]
+Possible solutions: println(), printf(java.lang.String, java.lang.Object), print(java.lang.Object), println(java.io.PrintWriter), print(java.io.PrintWriter), println(java.lang.Object)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-12 22:59:40 - [TEST_SUITE][PASSED] - TestSuite3: Test Cases/April13/TestListeners]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

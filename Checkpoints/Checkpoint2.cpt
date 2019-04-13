@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint2</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>Test Cases/test.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>Sheet1</sheet-name-or-separator>
+      <is-using-relative-path>true</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2019-04-12T20:02:07.206</taken-date>
+   <column-names>
+      <column-name>Name</column-name>
+      <column-name>Place</column-name>
+      <column-name>ID</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "John",
+      "checked": true
+    },
+    {
+      "value": "Chicago",
+      "checked": true
+    },
+    {
+      "value": "123",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Kevin",
+      "checked": true
+    },
+    {
+      "value": "New York",
+      "checked": true
+    },
+    {
+      "value": "345",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Peter",
+      "checked": true
+    },
+    {
+      "value": "India",
+      "checked": false
+    },
+    {
+      "value": "567",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Sarah",
+      "checked": true
+    },
+    {
+      "value": "Europe",
+      "checked": false
+    },
+    {
+      "value": "789",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
