@@ -18,7 +18,7 @@
          <value>id(&quot;welcome-menu&quot;)/ul[1]/li[2]/a[1][count(. | //a[@href = '/index.php/auth/logout' and (text() = 'Logout' or . = 'Logout')]) = count(//a[@href = '/index.php/auth/logout' and (text() = 'Logout' or . = 'Logout')])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
