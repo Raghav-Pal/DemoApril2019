@@ -35,6 +35,8 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Maintenance'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome Admin'))
 
+WebUI.verifyElementPresent(findTestObject('Page_OrangeHRM/a_Logout'), 5)
+
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
 
 WebUI.closeBrowser()
